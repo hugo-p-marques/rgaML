@@ -34,6 +34,10 @@ namespace rgaML
                 Debug.WriteLine($"\n\nPredicted Label value: {result.PredictedLabel} \nPredicted Label scores: [{String.Join(",", result.Score)}]\n\n");
                 label2.Text = result.PredictedLabel;
                 label3.Text = String.Join(",", result.Score);
+                progressBar1.Value = (int)(result.Score[0] * 100);
+                progressBar2.Value = (int)(result.Score[1] * 100);
+                progressBar3.Value = (int)(result.Score[2] * 100);
+
             }
         }
     }
