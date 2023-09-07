@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rgaML", "rgaML\rgaML.csproj", "{1BBB6FAD-8F39-42DF-9E20-B00022E4D215}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MLModel1_ConsoleApp1", "MLModel1_ConsoleApp1\MLModel1_ConsoleApp1.csproj", "{DFFF4FD0-01BE-408A-B940-0AC8EC10BAF5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1BBB6FAD-8F39-42DF-9E20-B00022E4D215}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BBB6FAD-8F39-42DF-9E20-B00022E4D215}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BBB6FAD-8F39-42DF-9E20-B00022E4D215}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BBB6FAD-8F39-42DF-9E20-B00022E4D215}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFFF4FD0-01BE-408A-B940-0AC8EC10BAF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFFF4FD0-01BE-408A-B940-0AC8EC10BAF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFFF4FD0-01BE-408A-B940-0AC8EC10BAF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFFF4FD0-01BE-408A-B940-0AC8EC10BAF5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {86BE511E-915B-45DC-A60D-199C571F090A}
+	EndGlobalSection
+EndGlobal
