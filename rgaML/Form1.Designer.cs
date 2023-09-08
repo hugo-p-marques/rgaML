@@ -37,6 +37,8 @@
             progressBar1 = new ProgressBar();
             progressBar2 = new ProgressBar();
             progressBar3 = new ProgressBar();
+            label4 = new Label();
+            label5 = new Label();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
@@ -55,7 +57,7 @@
             // 
             // loadButton
             // 
-            loadButton.Location = new Point(12, 339);
+            loadButton.Location = new Point(12, 372);
             loadButton.Name = "loadButton";
             loadButton.Size = new Size(75, 23);
             loadButton.TabIndex = 1;
@@ -66,16 +68,16 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(12, 365);
+            label1.Location = new Point(12, 345);
             label1.Name = "label1";
-            label1.Size = new Size(38, 15);
+            label1.Size = new Size(54, 15);
             label1.TabIndex = 2;
-            label1.Text = "label1";
+            label1.Text = "Load File";
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(201, 341);
+            label2.Location = new Point(402, 343);
             label2.Name = "label2";
             label2.Size = new Size(38, 15);
             label2.TabIndex = 3;
@@ -84,38 +86,58 @@
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(263, 341);
+            label3.Location = new Point(516, 359);
             label3.Name = "label3";
-            label3.Size = new Size(38, 15);
+            label3.Size = new Size(22, 15);
             label3.TabIndex = 4;
-            label3.Text = "label3";
+            label3.Text = "---";
             // 
             // progressBar1
             // 
-            progressBar1.Location = new Point(409, 356);
+            progressBar1.Location = new Point(402, 361);
             progressBar1.Name = "progressBar1";
             progressBar1.Size = new Size(100, 10);
             progressBar1.TabIndex = 5;
             // 
             // progressBar2
             // 
-            progressBar2.Location = new Point(409, 372);
+            progressBar2.Location = new Point(402, 377);
             progressBar2.Name = "progressBar2";
             progressBar2.Size = new Size(100, 10);
             progressBar2.TabIndex = 6;
             // 
             // progressBar3
             // 
-            progressBar3.Location = new Point(409, 388);
+            progressBar3.Location = new Point(402, 393);
             progressBar3.Name = "progressBar3";
             progressBar3.Size = new Size(100, 10);
             progressBar3.TabIndex = 7;
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Location = new Point(516, 375);
+            label4.Name = "label4";
+            label4.Size = new Size(22, 15);
+            label4.TabIndex = 8;
+            label4.Text = "---";
+            // 
+            // label5
+            // 
+            label5.AutoSize = true;
+            label5.Location = new Point(516, 391);
+            label5.Name = "label5";
+            label5.Size = new Size(22, 15);
+            label5.TabIndex = 9;
+            label5.Text = "---";
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(label5);
+            Controls.Add(label4);
             Controls.Add(progressBar3);
             Controls.Add(progressBar2);
             Controls.Add(progressBar1);
@@ -143,5 +165,7 @@
         private ProgressBar progressBar1;
         private ProgressBar progressBar2;
         private ProgressBar progressBar3;
+        private Label label4;
+        private Label label5;
     }
 }
